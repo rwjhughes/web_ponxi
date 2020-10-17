@@ -1,0 +1,120 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes saturate {
+    0%,99% {
+        -webkit-filter: saturate(1);
+    }
+    50% {
+        -webkit-filter: saturate(4);
+      }
+  }
+
+  img#achill {
+    animation: saturate 15s ease 0s infinite;
+  }
+
+  p {
+    opacity: 0;
+    color: white;
+    font-size: 115%;
+    text-shadow: 2px 1px 2px black;
+  }
+
+  p:hover {
+    opacity: 1;
+  animation: opacity-in 1.5s ease 0s;
+  }
+
+@keyframes opacity-in {
+  0% {
+    -webkit-filter: opacity(0)
+  }
+  100% {
+    -webkit-filter: opacity(1)
+  }
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+/* left text */
+.left0 {
+  position: absolute;
+  bottom: 4%;
+  left: 33%;
+}
+
+.left1 {
+  position: absolute;
+  bottom: 16%;
+  left: 3%;
+}
+
+.left2 {
+  position: absolute;
+  top: 36%;
+  left: 15%;
+}
+
+.left3 {
+  position: absolute;
+  top: 14%;
+  left: 8%;
+}
+
+/* right text */
+.right0 {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+
+.right1 {
+  position: absolute;
+  bottom: 28%;
+  right: 8%;
+}
+
+.right2 {
+  position: absolute;
+  top: 24%;
+  right: 15%;
+}
+
+.right3 {
+  position: absolute;
+  top: 6%;
+  right: 30%;
+}
+
+/* Centered text */
+.centre0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.centre1 {
+  position: absolute;
+  top: 16%;
+  left: 45%;
+}
+
+.centre2 {
+  position: absolute;
+  bottom: 18%;
+  right: 30%;
+}
