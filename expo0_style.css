@@ -37,17 +37,34 @@ body, html{
   }
 }
 
+.dl {
+  font-family: Cousine;
+  color: pink;
+  background-color: #B20CDB;
+  margin-bottom: 5px;
+}
+
+.dl:hover {
+  background-color: #930CDB;
+}
+
 /* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
 }
 
-.top-left {
+.top-left0 {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 5;
+}
+
+.top-left1 {
+  position: absolute;
+  top: 8%;
+  left: 0;
 }
 
 /* left text */
@@ -66,13 +83,13 @@ body, html{
 .left2 {
   position: absolute;
   top: 36%;
-  left: 15%;
+  left: 22%;
 }
 
 .left3 {
   position: absolute;
   top: 14%;
-  left: 8%;
+  left: 15%;
 }
 
 /* right text */
@@ -96,20 +113,20 @@ body, html{
 
 .right3 {
   position: absolute;
-  top: 6%;
-  right: 30%;
+  top: 3%;
+  right: 8%;
 }
 
 /* Centered text */
 .centre0 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
 }
 
 .centre1 {
   position: absolute;
-  top: 16%;
+  top: 9%;
   left: 45%;
 }
 
