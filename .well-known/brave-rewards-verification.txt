@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ponxi.art
+Token: 7f55852ab443a039adcf2b27c38772484e4d2d95917c962fb258d2f2e8f9fa38
